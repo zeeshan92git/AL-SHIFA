@@ -26,6 +26,7 @@ function TopDoctors() {
               scrollTo(0, 0);
             }}
             key={index}
+            data-aos="zoom-out"
             className="border border-blue-300 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-[5px] transition-transform duration-300 bg-white shadow-sm"
           >
            

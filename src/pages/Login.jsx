@@ -60,8 +60,8 @@ function Login() {
             alt="Doctor Appointment"
             className="rounded-lg shadow-lg mb-6 object-cover w-full max-w-sm mx-auto"
           />
-          <h1 className="text-4xl font-bold text-white mb-2">
-            Welcome to DocCure
+          <h1 className="text-4xl font-bold text-white mb-2 font-serif">
+            Welcome to Al-SHIFA
           </h1>
           <p className="text-lg text-white/90">
             Securely book your doctor's appointments in just a few clicks.

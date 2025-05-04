@@ -56,6 +56,7 @@ function Doctor() {
                         <div
                             onClick={() => navigate(`/appointment/${item._id}`)}
                             key={index}
+                            data-aos="zoom-out"
                             className='border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500'
                         >
                             <img className='bg-blue-50 hover:bg-blue-500' src={item.image} alt='doc_img' />

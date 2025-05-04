@@ -29,7 +29,7 @@ const RelatedDoctors = ({ docId, speciality }) => {
                 relDoc.length > 0 ? (
                     <div className='w-full grid grid-cols-auto gap-4 pt-5  gap-y-6 px-3 sm:px-0 mb-4 '>
                         {relDoc.map((item, index) => (
-                            <div onClick={() => navigate(`/appointment/${item._id}`, scrollTo(0, 0))} key={index} className='border border-blue-300 rounded-xl  overflow-hidden cursor-pointer  hover:translate-y-[-10px] transition-all duration-500 '>
+                            <div onClick={() => navigate(`/appointment/${item._id}`, scrollTo(0, 0))} key={index} data-aos="zoom-out" className='border border-blue-300 rounded-xl  overflow-hidden cursor-pointer  hover:translate-y-[-10px] transition-all duration-500 '>
                                 <img className='bg-blue-50 hover:bg-blue-500 object-contain' src={item.image} alt="doc_img" />
                                 <div className='p-4'>
                                     <div className={`flex items-center gap-2 text-center text-sm ${item.available ? 'text-green-500' : 'text-gray-500'} `}>
